@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: linear-gradient(-45deg, #d4dee9, #87f7ff, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.navbar{
+    background: linear-gradient(-45deg, #d4dee9, #87f7ff, #23a6d5, #23d5ab);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-nav li a{
+    font-size: 22px;
+}
+
+#city{
+    width: 20vw;
+}
+
+.my-4{
+    font-size: 50px;
+}
+.main-container{
+    width: 80vw;
+    height: 80vh;
+}
+
+.main-container h1{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+}
+
+.main-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 20px 20px 50px;
+}
+.main-container h3{
+    padding: 0 0 0 180px;
+
+}
+
+@media (max-width:577px){
+    .my-4{
+        font-size: 2rem;
+    }
+    .main-container h1{
+
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 20px 20px ;
+    }
+    
+    .main-container h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 20px 20px 20px ;
+    }
+    .main-container h3{
+        padding: 0 0 0 20px;
+    
+    }
+    #city{
+        width: 65vw;
+    }
+    
+}
+@media (max-width:380px){
+    .my-4{
+        font-size: 2rem;
+    }
+    .main-container h1{
+
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 20px 20px ;
+    }
+    #city{
+        width: 65vw;
+    }
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+.ft-para{
+    font-size: 1.4rem;
+    justify-content: right;
+}
+.about{
+    margin-top: 4rem;
+}
+.about-cnt{
+    width: 60vw;
+}
+@media (max-width:1000px){
+    .about{
+        margin-top: 0.5rem;
+    }
+    .about-cnt{
+        width: 80vw; 
+    }
+    .about-cnt h3{
+        padding: 0 0 0 20px;
+    }
+    .ft-para{
+        font-size: 1rem;
+        justify-content: right;
+    }
+    #city{
+        width: 65vw;
+    }
+}
+
+
